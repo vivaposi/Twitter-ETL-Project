@@ -14,5 +14,5 @@ The purpose of this project is to use the Twitter API to scrape tweet & user dat
 6. Connect to the EC2 instance and run the code in "EC2_Ubuntu_Commands.sh"
 7. Open the Airflow UI, run the DAG, and ensure that the pipeline worked successfully by checking it's status and the S3 Bucket associated
 
-<img src = "Airflow_DAG">
-<img src = "Airflow_Grid">
+<img src = "Airflow_DAG.png">
+<img src = "Airflow_Grid.png">
