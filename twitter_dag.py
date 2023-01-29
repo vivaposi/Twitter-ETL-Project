@@ -1,9 +1,13 @@
-﻿from datetime import timedelta
+## Import necessary packages
+
+from datetime import timedelta
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.utils.dates import days_ago
 from datetime import datetime
 from etl_twitter import run_twitter_etl
+
+## Create airflow variables
 
 default_args = {
     'owner': 'airflow',
@@ -15,6 +19,8 @@ default_args = {
     'retries': 1,
     'retry_delay': timedelta(minutes=1)
 }
+
+## Create a DAG
 
 dag = DAG(
     'twitter_dag',
