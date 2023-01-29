@@ -16,3 +16,6 @@ The purpose of this project is to use the Twitter API to scrape tweet & user dat
 
 <img src = "Airflow_DAG.png">
 <img src = "Airflow_Grid.png">
+
+
+Project inspired by Darshil Parmar
